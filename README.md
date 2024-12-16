@@ -1,2 +1,11 @@
-# MoonAPI
-MAPI: A Roblox Lua API that aims at making your scripting experience easier by having prebuilt functions.
+Use MAPI:
+```lua
+local moonzy, MAPI = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonzyDev/MoonAPI/refs/heads/main/main.lua")))
+```
+
+Example Usage:
+```lua
+local moonzy, MAPI = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonzyDev/MoonAPI/refs/heads/main/main.lua")))
+
+print(MAPI["GetPlayerMaxZoomDistance"]("SinasAss4free"))
+```
