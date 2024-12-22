@@ -7,5 +7,5 @@ Example Usage:
 ```lua
 local moonzy, MAPI = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonzyDev/MoonAPI/refs/heads/main/main.lua")))
 
-print(MAPI["GetPlayerMaxZoomDistance"]("SinasAss4free"))
+print(MAPI["GetPlayerMaxZoomDistance"](game:GetService("Players").LocalPlayer))
 ```
