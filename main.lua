@@ -4,6 +4,7 @@ local HttpService = game:GetService("HttpService")
 local MAPI_FUNCTIONS = {}
 
 function init()
+    local sT = os.time()
     local url = "https://api.github.com/repos/MoonzyDev/MoonAPI/contents/Functions";
     local response;
 
@@ -61,6 +62,8 @@ function init()
         end
     end
 
+    local diff = os.time() - sT
+    print(string.format("[⏹] Time Taken: %s", diff));
     print(string.format("[⏹] Version %s", Version));
     print(string.format("[⏹] Moon API | %s Build", Build));
     print("[⏹] Made by MoonzyDev (moonzy.dev)");
