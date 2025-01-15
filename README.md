@@ -7,7 +7,7 @@ Example Usage:
 ```lua
 local moonzy, MAPI = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonzyDev/MoonAPI/refs/heads/main/main.lua")))
 
-print(MAPI["GetPlayerMaxZoomDistance"](game:GetService("Players").LocalPlayer))
+print(MAPI["GetPlayerMaxZoomDistance"](game:GetService("Players").LocalPlayer.Name)) --> will be fixed to just being Player[OBJECT] instead of Player.Name[STRING] soon
 ```
 
 Rubberband Usage:
