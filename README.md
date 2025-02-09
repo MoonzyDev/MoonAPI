@@ -1,3 +1,5 @@
+## お知らせ: こんにちは、更新が滞っていて申し訳ない！課題や私用で忙しくしています。MAPIのリリースは遅くて夏休みになる予定です。ご容赦ください！
+
 Use MAPI:
 ```lua
 local moonzy, MAPI = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/MoonzyDev/MoonAPI/refs/heads/main/main.lua")))
